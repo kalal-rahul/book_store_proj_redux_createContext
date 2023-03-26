@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div >
-      <Router basename='/kalal-rahul/book_store_proj_redux_createContext'>
+      <Router basename='/book_store_proj_redux_createContext'>
         <Routes>
           <Route path="/" element={<SignUp />} />
 
