@@ -4,7 +4,7 @@ import bookImage from '../assests/book-image.png';
 
 export const BookCard = (props) => {
 
-    const [addToCart, setAddToCart] = useState("Add to Card");
+    const [addToCart, setAddToCart] = useState("Add to cart");
     const {cart} = useContext(DataContext);
     const {setCart} = useContext(DataContext);
 
@@ -13,10 +13,10 @@ export const BookCard = (props) => {
 
         setAddToCart((prev) => {
 
-            if (prev === "Add to Card") {
+            if (prev === "Add to cart") {
 
                 setCart([...cart, eachBookData]);
-                return ("Remove from Cart");
+                return ("Remove from cart");
             }
 
             else {
@@ -34,7 +34,7 @@ export const BookCard = (props) => {
                 })
 
                 setCart(updatedCart);
-                return ("Add to Card");
+                return ("Add to cart");
             }
         }
         );

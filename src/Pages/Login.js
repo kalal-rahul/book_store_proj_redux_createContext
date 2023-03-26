@@ -78,7 +78,7 @@ export const Login = (props) => {
                 <input type="submit" name="login" value="Login" />
 
                 <footer>
-                    <p>Do not have an account? <Link to="/book_store_proj_redux_createContext" >Sign Up</Link> </p>
+                    <p>Do not have an account? <Link to="/" >Sign Up</Link> </p>
                 </footer>
 
             </form>
