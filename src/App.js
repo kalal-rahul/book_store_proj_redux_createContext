@@ -2,7 +2,7 @@ import './App.css';
 import { Login } from "./Pages/Login";
 import { SignUp } from "./Pages/SignUp";
 import { Home } from "./Pages/Home";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { createContext, useState } from 'react';
 import { LoggedOut } from './Pages/LoggedOut';
 import { PrivateRoute } from './Pages/PrivateRoute';
@@ -23,9 +23,13 @@ function App() {
 
   return (
     <div >
+      {/* Here a HashRouter has been used instead of normal BrowserRouter to make sure routing works properly in Github Pages */}
       <Router>
         <Routes>
-          <Route path="/book_store_proj_redux_createContext" element={<SignUp />} />
+          {/* Note 
+             --> For any react project the landing page path should be same as that of the || Git REPO || name
+             --> This is while we are considering publishing it using Git pages   */}
+          <Route path="/" element={<SignUp />} />
 
           <Route path="/login" element={<Login setUserName={setUserName} />} />
 
