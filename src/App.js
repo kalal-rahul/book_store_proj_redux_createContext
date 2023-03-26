@@ -25,7 +25,7 @@ function App() {
     <div >
       <Router>
         <Routes>
-          <Route path="/" element={<SignUp />} />
+          <Route path="/book_store_proj_redux_createContext" element={<SignUp />} />
 
           <Route path="/login" element={<Login setUserName={setUserName} />} />
 
