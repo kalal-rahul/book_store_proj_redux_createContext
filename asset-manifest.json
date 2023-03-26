@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kalal-rahul/book_store_proj_redux_createContext/static/css/main.688c9cd4.css",
-    "main.js": "/kalal-rahul/book_store_proj_redux_createContext/static/js/main.b5ff1271.js",
+    "main.js": "/kalal-rahul/book_store_proj_redux_createContext/static/js/main.64490f49.js",
     "index.html": "/kalal-rahul/book_store_proj_redux_createContext/index.html",
     "main.688c9cd4.css.map": "/kalal-rahul/book_store_proj_redux_createContext/static/css/main.688c9cd4.css.map",
-    "main.b5ff1271.js.map": "/kalal-rahul/book_store_proj_redux_createContext/static/js/main.b5ff1271.js.map"
+    "main.64490f49.js.map": "/kalal-rahul/book_store_proj_redux_createContext/static/js/main.64490f49.js.map"
   },
   "entrypoints": [
     "static/css/main.688c9cd4.css",
-    "static/js/main.b5ff1271.js"
+    "static/js/main.64490f49.js"
   ]
 }
