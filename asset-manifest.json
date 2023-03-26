@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/kalal-rahul/book_store_proj_redux_createContext/static/css/main.688c9cd4.css",
-    "main.js": "/kalal-rahul/book_store_proj_redux_createContext/static/js/main.64490f49.js",
-    "index.html": "/kalal-rahul/book_store_proj_redux_createContext/index.html",
-    "main.688c9cd4.css.map": "/kalal-rahul/book_store_proj_redux_createContext/static/css/main.688c9cd4.css.map",
-    "main.64490f49.js.map": "/kalal-rahul/book_store_proj_redux_createContext/static/js/main.64490f49.js.map"
+    "main.css": "/book_store_proj_redux_createContext/static/css/main.688c9cd4.css",
+    "main.js": "/book_store_proj_redux_createContext/static/js/main.64490f49.js",
+    "index.html": "/book_store_proj_redux_createContext/index.html",
+    "main.688c9cd4.css.map": "/book_store_proj_redux_createContext/static/css/main.688c9cd4.css.map",
+    "main.64490f49.js.map": "/book_store_proj_redux_createContext/static/js/main.64490f49.js.map"
   },
   "entrypoints": [
     "static/css/main.688c9cd4.css",
