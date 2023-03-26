@@ -23,9 +23,9 @@ function App() {
 
   return (
     <div >
-      <Router basename='/book_store_proj_redux_createContext' >
+      <Router basename='/kalal-rahul/book_store_proj_redux_createContext'>
         <Routes>
-          <Route path="/book_store_proj_redux_createContext" element={<SignUp />} />
+          <Route path="/" element={<SignUp />} />
 
           <Route path="/login" element={<Login setUserName={setUserName} />} />
 
